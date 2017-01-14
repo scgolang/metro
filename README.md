@@ -78,3 +78,7 @@ func handleTicks(ticks chan uint64) {
 }
 
 ```
+
+# known issues
+
+We use deprecated functions on mac from the OSAtomic API.
